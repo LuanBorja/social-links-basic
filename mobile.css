@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fontes/static/Inter-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+}
+
+body {
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(22, 22, 22);
+
+    max-width: 60%;
+    max-height: 95%;
+    padding: 15px;
+
+    display: flex; 
+    flex-flow: column nowrap;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+div {
+    padding: 15px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;  
+}
+
+h1 {
+    padding: 5px;
+}
+
+h5 {
+    color: chartreuse;
+}
+
+p {
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(142, 141, 141);
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 10px;
+
+    background-color: rgb(54, 54, 54);
+
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
